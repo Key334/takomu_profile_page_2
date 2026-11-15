@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mai's Profile</title>
+  <!-- Google Fonts: イラストの雰囲気に合う丸ゴシック -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  <!-- Remix Icon: SNSなどのアイコン用 -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- 外部CSSの読み込み -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="container">
+    <!-- プロフィールセクション -->
+    <header class="profile-card">
+      <div class="avatar-wrapper">
+        <!-- 画像ファイルは assets/avatar.png として保存してください -->
+        <img src="assets/avatar.png" alt="プロフィールアイコン" class="avatar">
+      </div>
+      <h1 id="profile-name" class="profile-name">真衣 (Mai)</h1>
+      <p id="profile-bio" class="profile-bio">イラストを描いたり、コードを書いたりしています。</p>
+    </header>
+
+    <!-- ナビゲーションタブ（リンク / ブログ切り替え） -->
+    <nav class="tab-nav" aria-label="コンテンツ切り替え">
+      <button class="tab-btn active" data-target="links-section">
+        <i class="ri-links-line"></i> LINKS
+      </button>
+      <button class="tab-btn" data-target="blog-section">
+        <i class="ri-article-line"></i> BLOG
+      </button>
+    </nav>
+
+    <!-- リンク一覧セクション -->
+    <section id="links-section" class="content-section active">
+      <ul id="links-list" class="links-list">
+        <!-- script.js から動的に生成されます -->
+      </ul>
+    </section>
+
+    <!-- ブログ一覧セクション -->
+    <section id="blog-section" class="content-section">
+      <div id="blog-list" class="blog-list">
+        <!-- script.js から動的に生成されます -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Mai. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <!-- ブログ記事詳細モーダル -->
+  <div id="blog-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="閉じる">
+        <i class="ri-close-line"></i>
+      </button>
+      <span id="modal-date" class="blog-date"></span>
+      <h2 id="modal-title" class="modal-title"></h2>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- 外部JavaScriptの読み込み -->
+  <script src="js/script.js"></script>
+</body>
+</html>
