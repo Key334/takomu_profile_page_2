@@ -11,7 +11,7 @@ const SITE_DATA = {
   links: [
     {
       title: "X (Twitter)",
-      url: "https://x.com/tyamidori01",
+      url: "https://x.com/tyamidori01/",
       icon: "ri-twitter-x-line",
     },
     {
@@ -21,7 +21,7 @@ const SITE_DATA = {
     },
     {
       title: "GitHub",
-      url: "https://github.com/Key334",
+      url: "https://github.com/Key334/",
       icon: "ri-github-fill",
     },
     {
