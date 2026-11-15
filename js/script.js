@@ -23,12 +23,16 @@ const SITE_DATA = {
       title: "GitHub",
       url: "https://github.com/Key334/",
       icon: "ri-github-fill",
-    }//,
+    },
     // {
     //   title: "pixiv / ポートフォリオ / ※未定",
     //   url: "https://www.pixiv.net/",
     //   icon: "ri-palette-line",
     // },
+    {
+      title: "たこむに餌やり",
+      url: "https://key334.github.io/browser_game_takomu/"
+    }
   ],
   blogs: [
     {
