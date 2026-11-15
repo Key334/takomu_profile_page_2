@@ -9,7 +9,7 @@ const SITE_DATA = {
       title: "X (Twitter)",
       url: "https://x.com/tyamidori01",
       icon: "ri-twitter-x-line",
-    },
+    }//,
     // {
     //   title: "Instagram / イラスト置き場",
     //   url: "https://instagram.com/",
@@ -19,7 +19,7 @@ const SITE_DATA = {
       title: "GitHub",
       url: "https://github.com/Key334",
       icon: "ri-github-fill",
-    },
+    }//,
     // {
     //   title: "pixiv / ポートフォリオ",
     //   url: "https://www.pixiv.net/",
