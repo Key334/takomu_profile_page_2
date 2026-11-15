@@ -4,6 +4,10 @@
  * =========================================
  */
 const SITE_DATA = {
+  profile: {
+    name: "たこむ",
+    bio: "ゆるいイラストを描いたり、ものづくりをしています。メンダコが好き。",
+  },
   links: [
     {
       title: "X (Twitter)",
@@ -63,6 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
   setupModal();
 });
+
+// プロフィールの反映
+function renderProfile() {
+  document.getElementById("profile-name").textContent = SITE_DATA.profile.name;
+  document.getElementById("profile-bio").textContent = SITE_DATA.profile.bio;
+}
 
 // リンク一覧の生成
 function renderLinks() {
