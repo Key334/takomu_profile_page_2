@@ -64,12 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupModal();
 });
 
-// プロフィールの反映
-function renderProfile() {
-  document.getElementById("profile-name").textContent = SITE_DATA.profile.name;
-  document.getElementById("profile-bio").textContent = SITE_DATA.profile.bio;
-}
-
 // リンク一覧の生成
 function renderLinks() {
   const linksList = document.getElementById("links-list");
