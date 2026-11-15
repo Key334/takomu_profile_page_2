@@ -10,21 +10,21 @@ const SITE_DATA = {
       url: "https://x.com/tyamidori01",
       icon: "ri-twitter-x-line",
     },
-    // {
-    //   title: "Instagram / イラスト置き場",
-    //   url: "https://instagram.com/",
-    //   icon: "ri-instagram-line",
-    // },
+    {
+      title: "Instagram / イラスト置き場",
+      url: "https://instagram.com/",
+      icon: "ri-instagram-line",
+    },
     {
       title: "GitHub",
       url: "https://github.com/Key334",
       icon: "ri-github-fill",
-    }//,
-    // {
-    //   title: "pixiv / ポートフォリオ",
-    //   url: "https://www.pixiv.net/",
-    //   icon: "ri-palette-line",
-    // },
+    },
+    {
+      title: "pixiv / ポートフォリオ",
+      url: "https://www.pixiv.net/",
+      icon: "ri-palette-line",
+    },
   ],
   blogs: [
     {
