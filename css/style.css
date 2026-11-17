@@ -6,13 +6,13 @@
 :root {
    --bg-image: url("../assets/黒い鳥の島20261113134203.jpg");
   /*--bg-teal: #46939e;*/        /* 背景の青緑色 */
-  --bg-teal-dark: #367680;   /* ホバー・アクセント用 */
-  --pink-light: #ffe5f1;     /* キャラクターの淡いピンク */
-  --pink-accent: #ffcae3;    /* ピンクの強調色 */
-  --white: #ffffff;          /* 白目部分のピュアホワイト */
-  --ink-black: #0d0d0d;      /* 主線の力強い黒 */
-  --border-width: 3.5px;     /* イラストに合わせた太めの線 */
-  --shadow-offset: 5px;      /* ポップな立体影 */
+   --bg-teal-dark: #367680;   /* ホバー・アクセント用 */
+   --pink-light: #ffe5f1;     /* キャラクターの淡いピンク */
+   --pink-accent: #ffcae3;    /* ピンクの強調色 */
+   --white: #ffffff;          /* 白目部分のピュアホワイト */
+   --ink-black: #0d0d0d;      /* 主線の力強い黒 */
+   --border-width: 3.5px;     /* イラストに合わせた太めの線 */
+   --shadow-offset: 5px;      /* ポップな立体影 */
 }
 
 /* =========================================
@@ -26,7 +26,7 @@
 
 body {
   font-family: 'Zen Maru Gothic', sans-serif;
-  background-img: var(--bg-img);
+  background-image: var(--bg-image);
   color: var(--ink-black);
   line-height: 1.6;
   min-height: 100vh;
