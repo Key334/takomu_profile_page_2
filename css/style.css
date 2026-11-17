@@ -4,7 +4,7 @@
    カラーパレット（イラストから抽出）
    ========================================= */
 :root {
-   --bg-image: url("https://example.com/images/bg.jpg");
+   --bg-image: url("assets/黒い鳥の島20261113134203.jpg");
   /*--bg-teal: #46939e;*/        /* 背景の青緑色 */
   --bg-teal-dark: #367680;   /* ホバー・アクセント用 */
   --pink-light: #ffe5f1;     /* キャラクターの淡いピンク */
