@@ -219,7 +219,7 @@ body {
   font-size: 0.8rem;
   font-weight: 900;
   background-color: var(--bg-teal);
-  color: var(--white);
+  color: var(--ink-black);
   padding: 0.15rem 0.6rem;
   border-radius: 999px;
   border: 2px solid var(--ink-black);
